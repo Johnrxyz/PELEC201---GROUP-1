@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial; /*eto na muna font fam hehe*/
+    background: linear-gradient(to left, #fddde6, #ffd2d2);
+    color: #333;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #ffd1d1;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.navcontainer ul{
+    background-color: #ffd1d1;
+    padding: 0px;
+    margin: 0px ;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.navcontainer a{
+    text-decoration: none;
+    color: #2D3651;
+    font-weight: 550;
+    text-align: center;
+    font-size: 110%;
+    padding: 8px 15px;
+    display: block;
+}
+
+.navcontainer a:hover{
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #2D3651; 
+}
+
+.navcontainer li{
+    float: left;
+}
+
+h1{
+    color: #2D3651;
+    text-align: center;
+}
